@@ -1,0 +1,6 @@
+require("siddharth.plugins-setup")
+--require("siddharth.plugins-setup")
+require("siddharth.core.options")
+require("siddharth.core.keymaps")
+require("siddharth.core.colorscheme")
+require("siddharth.plugins.comment")
