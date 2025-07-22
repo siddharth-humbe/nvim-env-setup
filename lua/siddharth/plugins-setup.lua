@@ -30,6 +30,8 @@ return packer.startup(function(use)
   use ("christoomey/vim-tmux-navigator")
   use ("szw/vim-maximizer")
   use ("numToStr/Comment.nvim")
+  use ("nvim-tree/nvim-tree.lua")
+
   if packer_bootstrap then
     require("packer").sync()
   end
